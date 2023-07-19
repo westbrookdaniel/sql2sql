@@ -1,10 +1,10 @@
-import { DataConnection, Peer, PeerJSOption } from 'peerjs'
-import initSqlJs from 'sql.js'
+import { DataConnection, Peer, PeerJSOption } from 'npm:peerjs@1.4.7'
+import initSqlJs from 'npm:sql.js@1.8.0'
 
 export type InitOptions = {
   sqlOptions?: any
   peerId?: string
-  peerOptions: PeerJSOption
+  peerOptions?: PeerJSOption
 }
 
 export async function init(opts?: InitOptions) {

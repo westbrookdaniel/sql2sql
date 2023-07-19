@@ -1,9 +1,4 @@
 {
-  "imports": {
-    "react": "npm:react@18.2.0",
-    "sql.js": "npm:sql.js@1.8.0",
-    "peerjs": "npm:peerjs@1.4.7"
-  },
   "compilerOptions": {
     "lib": ["deno.ns", "dom", "dom.iterable"]
   },

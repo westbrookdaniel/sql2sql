@@ -91,6 +91,7 @@
   },
   "npm": {
     "specifiers": {
+      "peerjs@1.4.5": "peerjs@1.4.5",
       "peerjs@1.4.7": "peerjs@1.4.7",
       "peerjs@1.4.8-rc.1": "peerjs@1.4.8-rc.1",
       "react": "react@18.2.0",
@@ -130,6 +131,15 @@
       "peerjs-js-binarypack@2.0.0": {
         "integrity": "sha512-wu+L0Qeg4IH2DXm3B6xKP5ODeCIovwEEO/Fu3MVqApPQeVLzSdZpFzQzPobh+sdhUWMQGEO7YxHeiwpPngLjqQ==",
         "dependencies": {}
+      },
+      "peerjs@1.4.5": {
+        "integrity": "sha512-TS+vkx6RgR0WbRwTyN4OsrPI7i2xOw0FmzLqWZpEV5U3bSe6DWmwL/PltVX+NkETPDIGquyu5mGrGoWoODGkAQ==",
+        "dependencies": {
+          "@swc/helpers": "@swc/helpers@0.3.17",
+          "eventemitter3": "eventemitter3@4.0.7",
+          "peerjs-js-binarypack": "peerjs-js-binarypack@1.0.1",
+          "webrtc-adapter": "webrtc-adapter@7.7.1"
+        }
       },
       "peerjs@1.4.7": {
         "integrity": "sha512-dWE2HIGvJO0Hm8lYHJiO/5OWl8xYtGcAuU08To1HMIfhh76ULzkCS3NIQO/PZm4noO1RhaGTkQaQ6sbAss6/Tg==",

@@ -1,4 +1,4 @@
-import { DataConnection, Peer, PeerJSOption } from 'npm:peerjs@1.4.8-rc.1'
+import { DataConnection, Peer, PeerJSOption } from 'npm:peerjs@1.4.5'
 import initSqlJs from 'npm:sql.js@1.8.0'
 
 export type InitOptions = {

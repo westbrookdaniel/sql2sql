@@ -92,12 +92,19 @@
   "npm": {
     "specifiers": {
       "peerjs@1.4.7": "peerjs@1.4.7",
+      "peerjs@1.4.8-rc.1": "peerjs@1.4.8-rc.1",
       "react": "react@18.2.0",
       "sql.js@1.8.0": "sql.js@1.8.0"
     },
     "packages": {
       "@swc/helpers@0.3.17": {
         "integrity": "sha512-tb7Iu+oZ+zWJZ3HJqwx8oNwSDIU440hmVMDPhpACWQWnrZHK99Bxs70gT1L2dnr5Hg50ZRWEFkQCAnOVVV0z1Q==",
+        "dependencies": {
+          "tslib": "tslib@2.5.0"
+        }
+      },
+      "@swc/helpers@0.4.14": {
+        "integrity": "sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==",
         "dependencies": {
           "tslib": "tslib@2.5.0"
         }
@@ -120,6 +127,10 @@
         "integrity": "sha512-N6aeia3NhdpV7kiGxJV5xQiZZCVEEVjRz2T2C6UZQiBkHWHzUv/oWA4myQLcwBwO8LUoR1KWW5oStvwVesmfCg==",
         "dependencies": {}
       },
+      "peerjs-js-binarypack@2.0.0": {
+        "integrity": "sha512-wu+L0Qeg4IH2DXm3B6xKP5ODeCIovwEEO/Fu3MVqApPQeVLzSdZpFzQzPobh+sdhUWMQGEO7YxHeiwpPngLjqQ==",
+        "dependencies": {}
+      },
       "peerjs@1.4.7": {
         "integrity": "sha512-dWE2HIGvJO0Hm8lYHJiO/5OWl8xYtGcAuU08To1HMIfhh76ULzkCS3NIQO/PZm4noO1RhaGTkQaQ6sbAss6/Tg==",
         "dependencies": {
@@ -127,6 +138,15 @@
           "eventemitter3": "eventemitter3@4.0.7",
           "peerjs-js-binarypack": "peerjs-js-binarypack@1.0.1",
           "webrtc-adapter": "webrtc-adapter@7.7.1"
+        }
+      },
+      "peerjs@1.4.8-rc.1": {
+        "integrity": "sha512-aWZP5mX9oR7dpJZaU/7b6MJ/dplYdcwHvITwuNKbqjW703RbRqAzq6LHFB9QmZMVXyv9uyTEBlR0F3SjfBFOQg==",
+        "dependencies": {
+          "@swc/helpers": "@swc/helpers@0.4.14",
+          "eventemitter3": "eventemitter3@4.0.7",
+          "peerjs-js-binarypack": "peerjs-js-binarypack@2.0.0",
+          "webrtc-adapter": "webrtc-adapter@8.2.3"
         }
       },
       "react@18.2.0": {
@@ -145,6 +165,10 @@
         "integrity": "sha512-jhXqQAQVM+8Xj5EjJGVweuEzgtGWb3tmEEpl3CLP3cStInSbVHSg0QWOGQzNq8pSID4JkpeV2mPqlMDLrm0/Vw==",
         "dependencies": {}
       },
+      "sdp@3.2.0": {
+        "integrity": "sha512-d7wDPgDV3DDiqulJjKiV2865wKsJ34YI+NDREbm+FySq6WuKOikwyNQcm+doLAZ1O6ltdO0SeKle2xMpN3Brgw==",
+        "dependencies": {}
+      },
       "sql.js@1.8.0": {
         "integrity": "sha512-3HD8pSkZL+5YvYUI8nlvNILs61ALqq34xgmF+BHpqxe68yZIJ1H+sIVIODvni25+CcxHUxDyrTJUL0lE/m7afw==",
         "dependencies": {}
@@ -158,6 +182,12 @@
         "dependencies": {
           "rtcpeerconnection-shim": "rtcpeerconnection-shim@1.2.15",
           "sdp": "sdp@2.12.0"
+        }
+      },
+      "webrtc-adapter@8.2.3": {
+        "integrity": "sha512-gnmRz++suzmvxtp3ehQts6s2JtAGPuDPjA1F3a9ckNpG1kYdYuHWYpazoAnL9FS5/B21tKlhkorbdCXat0+4xQ==",
+        "dependencies": {
+          "sdp": "sdp@3.2.0"
         }
       }
     }

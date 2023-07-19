@@ -1,0 +1,24 @@
+{
+  "imports": {
+    "react": "npm:react@18.2.0",
+    "sql.js": "npm:sql.js@1.8.0",
+    "peerjs": "npm:peerjs@1.4.7"
+  },
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom", "dom.iterable"]
+  },
+  "tasks": {
+    "build": "deno run -A scripts/npm.ts",
+    "publish": "cd ./npm && npm publish --access public"
+  },
+  "lint": {
+    "exclude": ["npm"],
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["no-explicit-any"]
+    }
+  },
+  "fmt": {
+    "exclude": ["npm"]
+  }
+}
